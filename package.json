@@ -1,0 +1,8 @@
+{
+  "name": "oracle-with-nodeJS",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/JungDonggun/oracle-with-nodeJS.git",
+  "author": "DonggunJung <donggun.dev@gmail.com>",
+  "license": "MIT"
+}
