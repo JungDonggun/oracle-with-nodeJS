@@ -1,8 +1,19 @@
 {
-  "name": "oracle-with-nodeJS",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/JungDonggun/oracle-with-nodeJS.git",
-  "author": "DonggunJung <donggun.dev@gmail.com>",
-  "license": "MIT"
+	"name": "oracle-with-nodeJS",
+	"version": "1.0.0",
+	"main": "index.js",
+	"repository": "https://github.com/JungDonggun/oracle-with-nodeJS.git",
+	"author": "DonggunJung <donggun.dev@gmail.com>",
+	"license": "MIT",
+	"scripts": {
+		"dev": "nodemon --exec babel-node ./src/index"
+	},
+	"devDependencies": {
+		"babel-cli": "^6.26.0",
+		"babel-preset-env": "^1.7.0",
+		"nodemon": "^1.19.3"
+	},
+	"dependencies": {
+		"oracledb": "^4.0.1"
+	}
 }
