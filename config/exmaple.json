@@ -1,0 +1,9 @@
+{
+	"Customer": {
+		"database": {
+			"username": "YOUR_USERNAME",
+			"password": "YOUR_PASSWORD",
+			"connectString": "YOUR_CONNECTIONSTRING"
+		}
+	}
+}
