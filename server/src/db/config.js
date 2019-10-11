@@ -7,7 +7,6 @@ const databaseSettings = {
   user          : process.env.NODE_ORACLEDB_USER || username,
   password      : process.env.NODE_ORACLEDB_PASSWORD || password,
   connectString : process.env.NODE_ORACLEDB_CONNECTIONSTRING || connectString,
-  externalAuth  : process.env.NODE_ORACLEDB_EXTERNALAUTH ? true : false
 }
 
 export default databaseSettings

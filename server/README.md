@@ -2,7 +2,7 @@
  1. macOS에서 Oracle Database를 사용 하기 위해서는 Docker를 설치해야만 한다. 
   * 즉 macOS에서는 Oracle Database가 지원을 하지 않기 때문에 Docker같은 Container or VM을 이용하여 사용해야 한다
   * 도커는 무상태를 지향한다. 그렇기 때문에 프로그램(Container)을 실행시킨다음 생성된 데이터는 프로그램(Container)을 종료하면 데이터는 저장되지 않고 사라진다. 
-  * 그렇기 때문에 oracle을 docker로 사용하려면 데이터를 프로그램(Container)외부에 저장해야 한다. 그래서 -v 옵션으로 외부에 데이터 저장할 것 이다.
+  * 그렇기 때문에 oracle을 docker로 사용하려면 데이터를 프로그램(Container)외부에 저장해야 한다. 
 
  2. 우선 https://hub.docker.com/editions/community/docker-ce-desktop-mac 에 접속하여 Docker Desktop for Mac를 Install 한다.
 
